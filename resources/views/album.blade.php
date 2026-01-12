@@ -1,19 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Soundy</title>
-</head>
-<body>
-    <header>
-        <h1>Soundy</h1>
-        <nav>
-            
-        </nav>
-    </header>
-    
-    <footer>
-        <p>© 2026 Soundy. Todos los derechos reservados.</p>
-    </footer>
-    
-</body>
-</html>
+@extends('layout.app')
+
+@section('content')
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Artista</th>
+                <th>Año</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach($albums as $album)
+            <tr>
+                <td>{{ $album->id }}</td>
+                <td>{{ $album->name }}</td>
+                <td>{{ $album->artist }}</td>
+                <td>{{ $album->genre }}</td>
+            </tr>
+            @endforeach
+        </tbody>
+    </table>
+@endsection
