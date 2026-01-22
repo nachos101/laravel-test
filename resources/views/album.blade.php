@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('content')
-    <table>
+    <table class="table">
         <thead>
             <tr>
                 <th>ID</th>

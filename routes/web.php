@@ -8,4 +8,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/album',[AlbumController::class, 'showAllAlbums']);
+Route::get('/pop',[AlbumController::class, 'showAllAlbumsPop']);
+Route::get('/trap',[AlbumController::class, 'showAllAlbumsTrap']);
+Route::get('/rock_nacional',[AlbumController::class, 'showAllAlbumsRockNacional']);
+Route::get('/rock_alternativo',[AlbumController::class, 'showAllAlbumsRockAlternativo']);
