@@ -7,7 +7,7 @@
                 <th>ID</th>
                 <th>Título</th>
                 <th>Artista</th>
-                <th>Año</th>
+                <th>Género</th>
             </tr>
         </thead>
         <tbody>
