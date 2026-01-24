@@ -7,6 +7,8 @@
 <body>
     <header class="bg-dark text-white p-3 mb-4">
         <h1>Soundy</h1>
+        <a href="/login" class="btn btn-outline-light">Login</a>
+        <a href="/register" class="btn btn-outline-light">Register</a>
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black mb-4">
         <div class="container">
